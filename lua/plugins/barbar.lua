@@ -18,9 +18,9 @@ return {
 		config = function()
 			local map = vim.keymap.set
 			local opts = {}
-			map("n", "t,", ":BufferPrevious<CR>", opts)
-			map("n", "t.", ":BufferNext<CR>", opts)
-			map("n", "tc", ":BufferClose<CR>", opts)
+			map("n", "<Tab>p", ":BufferPrevious<CR>", opts)
+			map("n", "<Tab><Tab>", ":BufferNext<CR>", opts)
+			map("n", "<Tab>c", ":BufferClose<CR>", opts)
 
 			require("barbar").setup()
 		end,
