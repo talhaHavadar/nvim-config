@@ -2,6 +2,7 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+vim.opt.mouse = ""
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -34,5 +35,3 @@ vim.opt.autoread = true
 -- https://stackoverflow.com/a/1675752/488373
 vim.opt.list = true
 vim.opt.listchars = "tab:  ,extends:>,precedes:<,trail:·"
-
-
