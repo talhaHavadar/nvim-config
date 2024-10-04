@@ -12,7 +12,7 @@ return {
                 ensure_installed = {
                     "lua_ls",
                     "taplo",
-                    "tsserver",
+                    "ts_ls",
                     "rust_analyzer",
                     "yamlls",
                 },
@@ -23,7 +23,7 @@ return {
         "mrcjkb/rustaceanvim",
         dependencies = { "neovim/nvim-lspconfig" },
         version = "^4", -- Recommended
-        lazy = false, -- This plugin is already lazy
+        lazy = false,   -- This plugin is already lazy
     },
     {
         "neovim/nvim-lspconfig",
